@@ -9,12 +9,7 @@ async function fecthUsers() {
 async function IndexPage() {
   const users = await fecthUsers();
   return (
-    <div>
-      <h1>Hello World</h1>
-      <div>
-        <Users users={users}></Users>
-      </div>
-    </div>
+    <Users users={users}></Users>
   );
 }
 
