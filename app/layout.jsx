@@ -15,6 +15,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
         <head>
           <link rel="stylesheet" href="https://bootswatch.com/5/flatly/bootstrap.min.css" />
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossOrigin="anonymous"></script>
         </head>
         <body className={inter.className}>
           <Navigation/>
